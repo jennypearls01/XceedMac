@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Xceed2</title>
+    <!-- MDB icon -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .top-nav-collapse {
+            background-color: #41053e !important;
+        }
+
+        .navbar:not(.top-nav-collapse) {
+            background: #370247 !important;
+        }
+
+        @media (max-width: 991px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #563e91 !important;
+            }
+        }
+    </style>
+
+
+
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+
+            <div class="container">
+
+                <a class="navbar-brand" href="#">Xceedmac</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                    <ul class="navbar-nav mr-auto smooth-scroll">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html" data-offset="90">Home</a>
+                        </li>
+
+
+                    </ul>
+
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://facebook.com/xceedmac">
+                                <i class="fab fa-facebook-f light-green-text-2"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://twitter.com/xceedmac">
+                                <i class="fab fa-twitter light-green-text-2"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://instagram.com/xceedmac?utm_medium=copy_link">
+                                <i class="fab fa-instagram light-green-text-2"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+        <!-- Navbar -->
+
+</head>
+
+<body>
+
+    <br>
+    <br>
+    <br>
+
+
+    <div class="container mt-8">
+
+        <form action="https://formspree.io/mbjzbwaj" method="POST" id="my-form">
+            <!--Section: Content-->
+            <section class="dark-grey-text">
+
+                <div class="card">
+                    <!-- Central Modal Medium Success -->
+
+                    <div class="card-body">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-lg-10">
+
+                                <!-- Pills navs -->
+                                <ul class="nav md-pills nav-justified pills-primary font-weight-bold">
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tabCheckoutPayment123" role="tab">
+                                            Payment</a>
+                                    </li>
+                                </ul>
+
+                                <!-- Pills panels -->
+                                <div class="tab-content pt-4">
+
+                                    <!--Panel 1-->
+                                    <div class="tab-pane fade in show active" id="tabCheckoutBilling123"
+                                        role="tabpanel">
+
+                                        <!--Card content-->
+                                        <form>
+
+                                            <!--Grid row-->
+                                            <div class="row">
+
+                                                <!--Grid column-->
+                                                <div class="col-md-6 mb-4">
+
+                                                    <!--firstName-->
+                                                    <label for="firstName" class="">First name</label>
+                                                    <input type="text" id="firstName" class="form-control">
+
+                                                </div>
+                                                <!--Grid column-->
+
+                                                <!--Grid column-->
+                                                <div class="col-md-6 mb-2">
+
+                                                    <!--lastName-->
+                                                    <label for="lastName" class="">Last name</label>
+                                                    <input type="text" id="lastName" class="form-control">
+
+                                                </div>
+                                                <!--Grid column-->
+
+                                            </div>
+                                            <!--Grid row-->
+
+
+                                            <!--email-->
+                                            <label for="email" class="">Email (optional)</label>
+                                            <input type="text" id="email" class="form-control mb-4"
+                                                placeholder="youremail@example.com">
+
+                                            <!--address-->
+                                            <label for="address" class="">Address</label>
+                                            <input type="text" id="address" class="form-control mb-4"
+                                                placeholder="1234 Main St">
+
+                                            <!--address-2-->
+                                            <label for="address-2" class="">Type of Package</label>
+                                            <select class="custom-select d-block w-100" id="state" required>
+                                                <option value="">Choose...</option>
+                                                <option>XceedMac Premium Pack</option>
+                                                <option>Ruby Package</option>
+                                                <option>Diamond Package</option>
+                                            </select>
+
+                                            <!--Grid row-->
+                                            <br>
+                                            <div class="row">
+
+                                                <!--Grid column-->
+                                                <div class="col-lg-4 col-md-12 mb-4">
+
+                                                    <label for="country">Country</label>
+                                                    <select class="custom-select d-block w-100" id="country" required>
+                                                        <option>United States</option>
+                                                        <option>Ghana</option>
+                                                    </select>
+                                                    <div class="invalid-feedback">
+                                                        Please select a valid country.
+                                                    </div>
+
+                                                </div>
+                                                <!--Grid column-->
+
+                                                <!--Grid column-->
+                                                <div class="col-lg-4 col-md-6 mb-4">
+
+                                                    <label for="state">State/Region</label>
+                                                    <select class="custom-select d-block w-100" id="state" required>
+                                                        <option>California</option>
+                                                        <option>Ashanti</option>
+                                                    </select>
+                                                    <div class="invalid-feedback">
+                                                        Please provide a valid state.
+                                                    </div>
+
+                                                </div>
+                                                <!--Grid column-->
+
+                                                <!--Grid column-->
+                                                <div class="col-lg-4 col-md-6 mb-4">
+
+                                                    <label for="zip">Zip</label>
+                                                    <input type="text" class="form-control" id="zip" placeholder=""
+                                                        required>
+                                                    <div class="invalid-feedback">
+                                                        Zip code required.
+                                                    </div>
+                                                    <br>
+
+                                                    <div class="modal fade" id="centralModalSuccess" tabindex="-1"
+                                                        role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                                        <div class="modal-dialog modal-notify modal-primary"
+                                                            role="document">
+                                                            <!--Content-->
+                                                            <div class="modal-content">
+                                                                <!--Header-->
+                                                                <div class="modal-header">
+                                                                    <button type="button" class="close"
+                                                                        data-dismiss="modal" aria-label="Close">
+                                                                        <span aria-hidden="true"
+                                                                            class="white-text">&times;</span>
+                                                                    </button>
+                                                                </div>
+
+
+                                                                <!--Body-->
+                                                                <div class="modal-body">
+                                                                    <div class="text-center">
+                                                                        <i
+                                                                            class="fas fa-check fa-4x mb-3 animated rotateIn"></i>
+                                                                        <p>You will be sent an invoice shortly </p>
+                                                                    </div>
+                                                                </div>
+
+                                                                <!--Footer-->
+                                                                <div class="position-relative">
+                                                                    <svg data-name="Layer 2"
+                                                                        xmlns="http://www.w3.org/2000/svg"
+                                                                        viewBox="0 0 1200 120"
+                                                                        preserveAspectRatio="none" class="svg"
+                                                                        style=" height: 150px; width: 100%; fill: rgb(23, 111, 233); opacity: 0.7; transform: rotateX(180deg);">
+                                                                        <path
+                                                                            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.77,72,985.66,100.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z">
+                                                                        </path>
+                                                                    </svg>
+                                                                </div>
+                                                                <hr>
+                                                                <p>
+                                                                    <center>Thank you</center>
+                                                                </p>
+                                                            </div>
+                                                            <!--/.Content-->
+                                                        </div>
+                                                    </div>
+                                                    <!-- Central Modal Medium Success-->
+
+                                                    <!-- Button trigger modal -->
+
+                                                    <button class="btn btn-primary btn-lg btn-block" type="submit">Place order</button>
+                                                    <div class="text-center"> </div>
+
+                                                </div>
+
+                                                <br>
+
+                                                <hr>
+
+
+                                        </form>
+
+                                    </div>
+                                    <!--/.Panel 1-->
+
+                                </div>
+                                <!-- Pills panels -->
+
+
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+
+                    </div>
+                </div>
+
+            </section>
+            <!--Section: Content-->
+
+
+    </div>
+
+
+    <br>
+    <br>
+    <div class="position-relative">
+        <svg data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none"
+            class="svg"
+            style=" height: 150px; width: 100%; fill: rgb(153, 2, 153); opacity: 0.7; transform: rotateX(180deg);">
+            <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.77,72,985.66,100.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z">
+            </path>
+        </svg>
+    </div>
+    </div>
+    <!-- Background image -->
+
+
+
+
+
+
+
+
+
+    <footer class="page-footer font-small purple darken-3">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3">© 2022 Copyright:
+            <a href="#">Xceedmac Events</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts (optional) -->
+    <script type="text/javascript">
+        // Material Select Initialization
+        $(document).ready(function () {
+            $('.mdb-select').material_select();
+        });
+        $("#centralModalSuccess").on('show.bs.modal', function () {
+            alert("Cick okay to proceed to make payments to Xceedmac");
+        });
+    </script>
+    <script>
+        window.addEventListener("DOMContentLoaded", function () {
+            // get the form elements defined in your form HTML above
+
+            var form = document.getElementById("my-form");
+            // var button = document.getElementById("my-form-button");
+            var status = document.getElementById("status");
+
+            // Success and Error functions for after the form is submitted
+
+            function success() {
+                form.reset();
+                status.classList.add("success");
+                status.innerHTML = "Thanks!";
+            }
+
+            function error() {
+                status.classList.add("error");
+                status.innerHTML = "Oops! There was a problem.";
+            }
+
+            // handle the form submission event
+
+            form.addEventListener("submit", function (ev) {
+                ev.preventDefault();
+                var data = new FormData(form);
+                ajax(form.method, form.action, data, success, error);
+            });
+        });
+
+        // helper function for sending an AJAX request
+
+        function ajax(method, url, data, success, error) {
+            var xhr = new XMLHttpRequest();
+            xhr.open(method, url);
+            xhr.setRequestHeader("Accept", "application/json");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState !== XMLHttpRequest.DONE) return;
+                if (xhr.status === 200) {
+                    success(xhr.response, xhr.responseType);
+                } else {
+                    error(xhr.status, xhr.response, xhr.responseType);
+                }
+            };
+            xhr.send(data);
+        }
+
+    </script>
+
+</body>
+
+</html>
